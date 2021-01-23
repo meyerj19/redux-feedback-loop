@@ -23,7 +23,7 @@ function Support () {
         //    cart.push
           dispatch({ type: 'GET_SUPPORT', payload: review })
           
-            //history.push('/comments');
+            history.push('/comments');
         //}
     }
 
