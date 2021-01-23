@@ -25,7 +25,7 @@ function Comments (){
         //    cart.push
           dispatch({ type: 'GET_COMMENTS', payload: review })
           
-            history.push('/review');
+            //history.push('/review');
         //}
     }
 

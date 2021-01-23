@@ -26,6 +26,11 @@ const feedbackReducer = (state = '', action) => {
         console.log('support', review)
         return [...state, action.payload];
     }
+    else if (action.type === 'GET_COMMENTS'){
+        review.push(action.payload)
+        console.log('comments', review);
+        return [...state, action.payload];
+    }
 
     return state;
 }
